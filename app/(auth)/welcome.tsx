@@ -1,9 +1,11 @@
-import { Text } from "react-native";
+import { Text, TouchableOpacity } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 const Onboarding = () => {
     return (
-        <SafeAreaView>
-            <Text>Onboarding</Text>
+        <SafeAreaView className="flex h-full items-center justify-between bg-white">
+            <TouchableOpacity>
+                <Text>Skip</Text>
+            </TouchableOpacity>
         </SafeAreaView>
     )
 }
